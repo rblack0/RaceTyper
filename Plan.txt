@@ -1,0 +1,87 @@
+-=-=-=-=-=-=-=-=-=-=-=
+The Plan =-=-=-=-=-=-=
+-=-=-=-=-=-=-=-=-=-=-=
+
+Idea: We are making a program that small businesses
+would be able to utilize that tracks sales and processes it into useful information and outputs to a file.
+
+What information is contained in an item?
+ITEM_NAME PRICE
+  - How will these items be organized?
+  - We can throw them into a HashMap<ITEM_NAME, ITEM>
+Item.toString
+  - Displays item information in a well-formatted manner
+Item.compareTo
+  - Compares the item to another item using user-inputted specifications
+
+IDEA:
+1. Would you like to open a current sales document? Y/N
+2: Would you like to create a new sales document? Y/N
+  Name for the file
+  Enter in the new products
+  Save that
+3: What would you like to do?
+  Record a sale
+    item by number with a list of items to enter?
+    Enter x items with y sold
+  View current sales
+    Find a good way to visualize this within
+  Output the sales to text
+    Organized by: (?)
+    Price, Alphabetical
+  Exit / Close the program
+  
+  -----------------------------------------------------
+  -=-=-=-=-=-=-=-=-=-=-=
+  Typeracer 2.0  =-=-=-=
+  -=-=-=-=-=-=-=-=-=-=-=
+  
+  Description:
+
+  Interactive text based game for children/adults that want to practice typing. User gets fed a stream of sentences and must type them correctly as fast as they can before the timer runs out.
+  Create a linked list consisting of nodes that each hold a sentence/line of text and int value representing time in seconds (maybe even msecs)
+  
+
+
+Features to Implement:
+
+  - Time 
+    Use Java's inbuilt function to measure elapsed time
+    
+
+  - Calculating WPM
+    Could count all of the words in the input file and count how many letters they consist of 
+      Then use 1 letter as the base unit of score?
+
+  - Spell Checker
+    Use strcmp() in order to check correctness
+      eg. if it returns 0, we know the sentence was typed correctly verbatim, else, we either dock points or make the user waste time by retyping
+
+  - File input
+    .txt file that has whatever you want to practice typing, eg. a paragraph, excerpt from a book, snippet of code etc...
+      Could be copy pasted from where ever
+
+  - Variable Difficulty Levels
+    Longer paragraphs to challenge endurance
+    Shorter time limit to challenge speed
+
+  - Feedback Responses Depending on Degree of success
+    Could be playful, supportive, or even have tips/tricks as feedback for next time
+      "Remembering to be mindful of your posture and comfort can help improve your typing speed!"
+
+  
+  - Leaderboard
+    Compare past and present scores to see progress (or lack therof)
+      eg. "This time your wpm/score increased by 12%!"
+
+1.Would you like to create a new paragaph to practice? Y/N
+2.Create a new LL with the users paragraph.
+  Each node contains one sentence
+  Pointer to next node
+3.Are you ready to practice? Y/N
+4.3...2...1 Start!
+4.One sentence at a time, 10 seconds to type it.
+    Strcmp, if its wrong end the game.
+5. 
+
+ File reader and report card
